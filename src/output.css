@@ -1357,6 +1357,9 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
@@ -1756,6 +1759,21 @@
   .sm\:w-\[280px\] {
     @media (width >= 40rem) {
       width: 280px;
+    }
+  }
+  .sm\:w-\[300px\] {
+    @media (width >= 40rem) {
+      width: 300px;
+    }
+  }
+  .sm\:w-\[400px\] {
+    @media (width >= 40rem) {
+      width: 400px;
+    }
+  }
+  .sm\:w-\[px\] {
+    @media (width >= 40rem) {
+      width: px;
     }
   }
   .sm\:flex-row {
